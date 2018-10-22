@@ -6,18 +6,27 @@ body section {
     margin: auto;
     max-width: 1200px;
     width: auto;
-    background-color: rgba(102, 0, 219, 0.3);
+    background-color: rgba(55, 5, 112, 0.5);
 }
 
 h1 {
     text-align: center;
     font-size: 50px;
     color: silver;
+    text-shadow: rgba(55, 5, 112, 0.4) 0px 5px 5px,
+                 rgba(55, 5, 112, 0.6) 0px -5px 5px,
+                 rgba(55, 5, 112, 0.5) 5px 0px 5px,
+                 rgba(55, 5, 112, 0.5) -5px 0px 5px;
 }
 
 h2 {
     text-align: center;
     font-size: 30px;
+    color: silver;
+    text-shadow: rgba(55, 5, 112, 0.4) 0px 5px 5px,
+                 rgba(55, 5, 112, 0.6) 0px -5px 5px,
+                 rgba(55, 5, 112, 0.5) 5px 0px 5px,
+                 rgba(55, 5, 112, 0.5) -5px 0px 5px;
 }
 
 aside {
@@ -26,24 +35,28 @@ aside {
 
 nav ul {
     width: auto;
-    background-color: rgba(85, 85, 85, 0.3);
-    height: 20px;
+    background-color: rgba(85, 85, 85, 0.5);
+    height: 25px;
 }
 
 nav ul li{
-    max-width: 1200px;
     width: auto;
-    text-shadow: rgb(133, 78, 185) 2px 2px 2px;
+
     list-style: none;
-    margin-left: 25%;
+    margin-left: 29%;
     float: left;
 }
 
 nav ul li a {
+    font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: grey;
 }
 
-nav ul li:hover {
-    
+nav ul li a:hover {
+    color: silver;
+    text-shadow: rgba(55, 5, 112, 0.3) 0px 5px 5px,
+                 rgba(55, 5, 112, 0.5) 0px -5px 5px,
+                 rgba(55, 5, 112, 0.4) 5px 0px 5px,
+                 rgba(55, 5, 112, 0.4) -5px 0px 5px;
 }
