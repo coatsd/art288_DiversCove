@@ -1,0 +1,49 @@
+body {
+    background-image: url("images/Underwater_View.jpg");
+}
+
+body section {
+    margin: auto;
+    max-width: 1200px;
+    width: auto;
+    background-color: rgba(102, 0, 219, 0.3);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: silver;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+aside {
+    height: 200px;
+}
+
+nav ul {
+    width: auto;
+    background-color: rgba(85, 85, 85, 0.3);
+    height: 20px;
+}
+
+nav ul li{
+    max-width: 1200px;
+    width: auto;
+    text-shadow: rgb(133, 78, 185) 2px 2px 2px;
+    list-style: none;
+    margin-left: 25%;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li:hover {
+    
+}
