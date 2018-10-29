@@ -7,6 +7,7 @@ body section {
     max-width: 1200px;
     width: auto;
     background-color: rgba(55, 5, 112, 0.5);
+    padding-bottom: 20px;
 }
 
 h1 {
@@ -30,11 +31,11 @@ h2 {
 }
 
 body section p {
-    font-size: 20px;
     text-align: center;
-    height: 200px;
+    height: auto;
     width: 1100px;
     margin-left: 50px;
+    padding-bottom: 20px;
     background-color: rgba(85, 85, 85, 0.5);
     color: silver;
     text-shadow: rgba(18, 0, 39, 0.4) 0px 5px 5px,
@@ -45,16 +46,16 @@ body section p {
 
 nav ul {
     width: auto;
+    height: auto;
     background-color: rgba(85, 85, 85, 0.5);
     height: 25px;
 }
 
 nav ul li{
-    width: auto;
-
+    width: 16.66%;
     list-style: none;
-    margin-left: 29%;
     float: left;
+    
 }
 
 nav ul li a {
