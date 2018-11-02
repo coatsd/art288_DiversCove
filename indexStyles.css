@@ -8,9 +8,9 @@ body section {
     margin-right: auto;
     max-width: 1200px;
     width: auto;
-    background-image: radial-gradient(farthest-corner at 
-                                      40% 80%, 
-                                      rgba(55, 5, 112, 0.6) 30%,
+    background-image: radial-gradient(closest-corner at 
+                                      40% 40%, 
+                                      rgba(55, 5, 112, 0.5) 25%,
                                       rgba(85, 85, 85, 0.4));
     border: solid rgba(85, 85, 85, 0.2) 1px;
     border-radius: 450px;
@@ -31,7 +31,7 @@ h1 {
 /* navigation styles */
 nav {
     background-image: linear-gradient(to right, rgba(85, 85, 85, 0.4),
-                                                rgba(55, 5, 112, 0.1),
+                                                rgba(55, 5, 112, 0.2),
                                                 rgba(85, 85, 85, 0.4));
     border: solid rgba(85, 85, 85, 0.2) 1px;
     border-radius: 10px;
@@ -93,7 +93,7 @@ body section article {
     margin-right: 50px;
     margin-bottom: 20px;
     background-image: linear-gradient(to right, rgba(85, 85, 85, 0.4),
-                                                rgba(55, 5, 112, 0.1),
+                                                rgba(55, 5, 112, 0.2),
                                                 rgba(85, 85, 85, 0.4));
     border: solid rgba(85, 85, 85, 0.2) 1px;
     border-radius: 25px;
@@ -126,7 +126,7 @@ footer {
     width: auto;
     color: silver;
     background-image: linear-gradient(to right, rgba(85, 85, 85, 0.4),
-                                                rgba(55, 5, 112, 0.1),
+                                                rgba(55, 5, 112, 0.2),
                                                 rgba(85, 85, 85, 0.4));
     border: solid rgba(85, 85, 85, 0.2) 1px;
     border-radius: 5px;
